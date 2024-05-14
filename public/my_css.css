@@ -44,12 +44,6 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-.card {
-    width: 300px;
-    border: 1px solid #8a8888;
-    padding: 20px;
-    border-radius: 10px;
-}
 
 .card img {
     width: 100%;
