@@ -36,7 +36,7 @@ export default function HomePage() {
 
       <AboutUs />
 
-      <Cards card={cardsData} />
+      <Cards cards={cardsData} />
       <Products data={cardsData} />
     </div>
   );

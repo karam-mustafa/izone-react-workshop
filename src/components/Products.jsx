@@ -6,7 +6,7 @@ export default function Products() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos")
+    fetch("https://jsonplaceholder.typicode.com/photos?_limit=10")
       .then((response) => {
         return response.json();
       })
